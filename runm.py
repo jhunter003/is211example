@@ -11,8 +11,9 @@ class Book:
 
     def display(self):
         """Display the author's name and book title"""
-        print(f"I'm {self.author} and I wrote the book called {self.title}")
 
+        print(f"I'm an author. My name is {self.author}.")
+        print(f"I wrote the book called {self.title}.")
         pass
 
 
